@@ -4,7 +4,7 @@ import Footer from './Pages/Footer'
 import './App.css'
 
 export default function App () {
-  let amount = 500
+  let amount = 900
   return (
     <React.Fragment>
       {/* <h1>Lorem ipsum dolor sit amet.</h1> */}
@@ -12,7 +12,7 @@ export default function App () {
       <Header />
       <Child />
       <Footer />
-      
+
     </React.Fragment>
   )
 }
