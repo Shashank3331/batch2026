@@ -7,7 +7,7 @@ export default function App () {
   let amount = 900
   return (
     <React.Fragment>
-      {/* <h1>Lorem ipsum dolor sit amet.</h1> */}
+      <h1>CR (Class Representative) Mr Sudheer Kumar</h1>
       <p>The Fine Amount is increased by {amount}</p>
       <Header />
       <Child />
