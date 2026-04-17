@@ -4,14 +4,30 @@ import data from '../Pages/data.js'
 function DynamicData () {
   return (
     <div>
-      {data.map(value => (
-        <>
-          <h2>
-            {value.id} {value.name} {value.country} {value.education}
-          </h2>
-          <img src={value.avatar} width={150} />
-        </>
-      ))}
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>education</th>
+            <th>Avatar</th>
+          </tr>
+        </thead>
+        <tbody>
+           {data.map((val)=>{
+              return(
+                <tr>
+                   <td>{val.id}</td>
+                   <td>{val.name}</td>
+                   <td>{val.country}</td>
+                   <td>{val.education}</td>
+                   <td><img src={val.avatar} alt="avatar" width={150}/></td>
+                </tr>
+              )
+           })}
+        </tbody>
+      </table>
     </div>
   )
 }

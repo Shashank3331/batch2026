@@ -189,3 +189,16 @@ body{
   color: #fff;
   text-align: center;
 }
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table thead tr{
+  background-color: black;
+  color: #fff;
+  height: 10vh;
+}
+table th,td{
+  border: 2px solid orange;
+}

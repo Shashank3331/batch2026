@@ -4,6 +4,7 @@ import Footer from './Pages/Footer'
 import './App.css'
 import hero from './assets/hero.png'
 import DynamicData from './Pages/DynamicData'
+import Portal from './Pages/Portal'
 
 export default function App () {
   let amount = 900
@@ -14,6 +15,7 @@ export default function App () {
       <p>The Fine Amount is increased by {amount}</p>
       <Header />
       <Child />
+      <Portal/>
       <DynamicData/>
       <Footer />
 
