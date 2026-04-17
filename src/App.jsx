@@ -2,15 +2,19 @@ import React from 'react'
 import Header from './Pages/Header'
 import Footer from './Pages/Footer'
 import './App.css'
+import hero from './assets/hero.png'
+import DynamicData from './Pages/DynamicData'
 
 export default function App () {
   let amount = 900
   return (
     <React.Fragment>
       <h1>CR (Class Representative) Mr Sudheer Kumar</h1>
+      <img src={hero} alt="" />
       <p>The Fine Amount is increased by {amount}</p>
       <Header />
       <Child />
+      <DynamicData/>
       <Footer />
 
     </React.Fragment>
