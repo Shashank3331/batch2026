@@ -5,6 +5,8 @@ import './App.css'
 import hero from './assets/hero.png'
 import DynamicData from './Pages/DynamicData'
 import Portal from './Pages/Portal'
+import SudheerKaDoubt from './Pages/SudheerKaDoubt'
+import Parent from './Pages/Parent'
 
 export default function App () {
   let amount = 900
@@ -16,6 +18,8 @@ export default function App () {
       <Header />
       <Child />
       <Portal/>
+      <Parent/>
+      <SudheerKaDoubt/>
       <DynamicData/>
       <Footer />
 
