@@ -7,6 +7,7 @@ import DynamicData from './Pages/DynamicData'
 import Portal from './Pages/Portal'
 import SudheerKaDoubt from './Pages/SudheerKaDoubt'
 import Parent from './Pages/Parent'
+import StateInClass from './Pages/StateInClass'
 
 export default function App () {
   let amount = 900
@@ -19,6 +20,7 @@ export default function App () {
       <Child />
       <Portal/>
       <Parent/>
+      <StateInClass/>
       <SudheerKaDoubt/>
       <DynamicData/>
       <Footer />

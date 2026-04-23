@@ -109,3 +109,28 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 } */
+
+
+.cart{
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+.count{
+  width: 22px;
+  line-height: 1.4;
+  height: 22px;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  top: 5px;
+  padding: 2px;
+  font-weight: bold;
+  right: 16px;
+}
+.icon{
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
