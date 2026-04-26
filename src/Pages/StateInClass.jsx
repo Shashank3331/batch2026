@@ -8,10 +8,18 @@ class StateInClass extends Component {
     this.state = {
       count: 0
     }
+    this.handleClick = this.handleClick.bind(this)
   }
+      handleClick(){
+      this.setState({count: this.state.count+1})
+    }
   render () {
     // De-structure the current state
     const {count} = this.state
+
+    //   this.handleClick = ()=>{
+    //   this.setState({count: count+1})
+    // }
     return (
       <>
         <h1>State in Class based Component</h1>
@@ -19,10 +27,11 @@ class StateInClass extends Component {
          <ShoppingCart stroke='#fff' className='icon' fill='#fff'/>
         <div className='count'>{count}</div>
        </div>
-        {/* Add button with events like inline arrow function */}
-        <button onClick={() => this.setState({ count: count + 1 })}>
+      
+        <button onClick={this.handleClick}>
           Add to Cart
         </button>
+          {/* Add button with events like inline arrow function */}
         <button onClick={() => this.setState({ count: count - 1 })}>
           Remove to Cart
         </button>
