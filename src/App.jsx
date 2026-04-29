@@ -9,6 +9,9 @@ import SudheerKaDoubt from './Pages/SudheerKaDoubt'
 import Parent from './Pages/Parent'
 import StateInClass from './Pages/StateInClass'
 import StateInFunction from './Pages/StateInFunction'
+import SendStateAsProps from './Pages/SendStateAsProps'
+import Conditional from './Components/Conditional'
+import Search from './Components/Search'
 
 export default function App () {
   let amount = 900
@@ -25,6 +28,9 @@ export default function App () {
       <StateInFunction/>
       <SudheerKaDoubt/>
       <DynamicData/>
+      <SendStateAsProps/>
+      <Conditional/>
+      <Search/>
       <Footer />
 
     </React.Fragment>
